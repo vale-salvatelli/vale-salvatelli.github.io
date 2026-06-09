@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects · Valentina Salvatelli</title>
+  <meta name="description" content="Selected research projects by Valentina Salvatelli." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav>
+    <div class="nav-inner">
+      <a class="nav-brand" href="index.html">Valentina Salvatelli</a>
+      <ul class="nav-links">
+        <li><a href="index.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Main ── -->
+  <main>
+    <h1 style="font-size:1.7rem; font-weight:700; letter-spacing:-0.02em; margin-bottom:0.5rem;">
+      Projects
+    </h1>
+    <p class="projects-intro">
+      A sample of past research projects that are public.
+
+    <div class="projects-grid">
+
+      <!-- MAIRA -->
+      <article class="project-card">
+        <div class="project-card-header">
+          <h2>MAIRA</h2>
+          <span class="project-badge">Radiology AI · Microsoft Research</span>
+        </div>
+        <p class="desc">
+          MAIRA (Multimodal AI Radiology Assistant) is a system for generating radiology
+          reports and answering clinical questions about chest X-rays. It combines large
+          language models with radiology-specific vision encoders, and has been evaluated
+          in rigorous clinical settings at the Mayo Clinic.
+        </p>
+        <div class="tags">
+          <span class="tag">Radiology</span>
+          <span class="tag">Report Generation</span>
+          <span class="tag">Multimodal LLM</span>
+          <span class="tag">Clinical AI</span>
+        </div>
+        <div class="project-links">
+          <a class="btn btn-primary"
+             href="https://www.microsoft.com/en-us/research/project/project-maira/publications/"
+             target="_blank" rel="noopener">Project page ↗</a>
+          <!-- Add paper / arXiv / GitHub links here -->
+        </div>
+      </article>
+        <!-- Rad-DINO -->
+        <article class="project-card">
+        <div class="project-card-header">
+            <h2>Rad-DINO</h2>
+            <span class="project-badge">Radiology</span>
+             <span class="tag">Image Representation Learning</span>
+             <span class="tag">Foundational Model</span>
+        </div>
+
+        <p class="desc">
+            Rad-DINO is a self-supervised vision foundation model pre-trained on large
+            collections of chest X-rays. It learns rich visual representations without
+            manual labels and achieves strong performance on a range of downstream
+            radiological tasks.
+        </p>
+
+        <div class="tags">
+            <span class="tag">Self-Supervised Learning</span>
+            <span class="tag">Vision Foundation Model</span>
+            <span class="tag">Chest X-Ray</span>
+            <span class="tag">DINO</span>
+        </div>
+
+        <div class="project-links">
+            <a class="btn btn-primary"
+            href="https://www.nature.com/articles/s42256-024-00965-w"
+            target="_blank" rel="noopener">
+            Main Paper ↗
+            </a>
+
+            <a class="btn btn-secondary"
+            href="https://arxiv.org/abs/2509.12818"
+            target="_blank" rel="noopener">
+            Scaling Laws Paper ↗
+            </a>
+
+            <a class="btn btn-secondary"
+            href="https://huggingface.co/microsoft/rad-dino"
+            target="_blank" rel="noopener">
+            Hugging Face ↗
+            </a>
+
+        </div>
+        </article>
+
+      <!-- HistoProject -->
+      <article class="project-card">
+        <div class="project-card-header">
+          <h2>HistoProject</h2>
+          <span class="project-badge">Digital Pathology</span>
+          <span class="project-badge">AI-enhanced Patient Screening</span>
+        </div>
+        <p class="desc">
+          AI-model to prioritize screened patients for Barrett’s esophagus 
+          from routine H&amp;E whole-slide images. Ongoing trial with CancerUK.
+          The work shows how
+          pathology AI can reduce dependence on costly expert annotations while
+          maintaining strong diagnostic performance in clinical workflows.
+        </p>
+        <div class="tags">
+          <span class="tag">Computational Pathology</span>
+          <span class="tag">Whole-Slide Imaging</span>
+          <span class="tag">Weak Supervision</span>
+          <span class="tag">Barrett’s Esophagus</span>
+          <span class="tag">Representation Learning</span>
+          <span class="tag">Foundation Models</span>
+        </div>
+        <div class="project-links">
+            <a class="btn btn-primary"
+             href="https://www.nature.com/articles/s41467-024-46174-2"
+             target="_blank" rel="noopener">Paper ↗</a>
+
+             <a class="btn btn-primary"
+             href="https://github.com/microsoft/hi-ml"
+             target="_blank" rel="noopener">GitHub ↗</a>
+            
+        </div>
+      </article>
+
+      <!-- SDO / Heliophysics -->
+      <article class="project-card">
+        <div class="project-card-header">
+          <h2>SDO &amp; Heliophysics AI</h2>
+          <span class="project-badge">Astrophysics · NASA · Frontier Development Lab</span>
+        </div>
+        <p class="desc">
+          Projects leveraging data from NASA's Solar Dynamics Observatory (SDO) to study 
+          how AI can enhance remote sensing instruments in space missions.
+        </p>
+        <div class="tags">
+          <span class="tag">Heliophysics</span>
+          <span class="tag">Solar AI</span>
+          <span class="tag">Remote Sensing</span>
+          <span class="tag">NASA SDO</span>
+          <span class="tag">Space Weather</span>
+        </div>
+        <div class="project-links">
+           <a class="btn btn-primary"
+             href="https://iopscience.iop.org/article/10.3847/1538-4357/ac867b"
+             target="_blank" rel="noopener">Virtual Telescope Paper ↗</a>
+
+           <a class="btn btn-outline"
+             href="https://zenodo.org/records/6954828"
+             target="_blank" rel="noopener">Zenodo ↗</a>
+           
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="yr"></span> Valentina Salvatelli</p>
+  </footer>
+
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
